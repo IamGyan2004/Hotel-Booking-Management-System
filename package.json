@@ -4,12 +4,12 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host localhost --port 5001",
     "server": "node server/index.js",
     "server:dev": "node --watch server/index.js",
     "fullstack": "concurrently \"npm run server:dev\" \"npm run dev\"",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview --host localhost --port 4173"
   },
   "dependencies": {
     "@vitejs/plugin-react": "latest",
