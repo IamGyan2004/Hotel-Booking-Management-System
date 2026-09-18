@@ -11,7 +11,7 @@ cp .env.example .env
 npm run fullstack
 ```
 
-Frontend: `http://localhost:5173`  
+Frontend: `http://localhost:5003`  
 API: `http://localhost:5000`  
 Health check: `http://localhost:5000/api/health`
 
